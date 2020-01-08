@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.cloudpayments.android:sdk:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19063e34d8644fb39d50d712efa33ca5/sdk-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/19063e34d8644fb39d50d712efa33ca5/sdk-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.cloudpayments.android/sdk/1.0.5/a2351433995c0e3236cba401cd8716f7991da314/sdk-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.cloudpayments.android/sdk/1.0.5/f7eb1c8aa82e0614cee92719a7b0dd161648a801/sdk-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
