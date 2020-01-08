@@ -34,11 +34,11 @@ dependencies {
 
 publish {
 
-    userOrg = 'cloudpayments'
-    groupId = 'ru.cloudpayments.android'
+    userOrg = 'wokrey'
+    groupId = 'ru.cloudpayments.wokrey'
     repoName = 'sdk'
     artifactId = 'sdk'
-    publishVersion = '1.0.5'
+    publishVersion = '1.0.0'
     desc = 'CloudPayments SDK for Android'
-    website = 'https://github.com/cloudpayments/SDK-Android'
+    website = 'https://github.com/Wokrey/SDK-Android'
 }
