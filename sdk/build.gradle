@@ -1,11 +1,10 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0.0"
@@ -24,21 +23,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
 
     implementation 'org.jsoup:jsoup:1.11.3'
     implementation 'com.google.code.gson:gson:2.8.5'
 
     implementation 'com.android.volley:volley:1.1.1'
-}
-
-publish {
-
-    userOrg = 'wokrey'
-    groupId = 'ru.cloudpayments.wokrey'
-    repoName = 'sdk'
-    artifactId = 'sdk'
-    publishVersion = '1.0.0'
-    desc = 'CloudPayments SDK for Android'
-    website = 'https://github.com/Wokrey/SDK-Android'
 }
